@@ -1,0 +1,50 @@
+body {
+	padding: 50px;
+}
+
+.button {
+	font-size: 20px;
+	color: white;
+	background-color: blue;
+}
+
+a {
+	background-color: purple !important;
+}
+
+#nav div.pull-right a.button {
+	background-color: orangered;
+}
+
+#nav div.pull-right a.button:hover {
+
+}
+
+#nav a.button:hover {
+	background-color: yellow;
+}
+
+.section {
+	font-size: 1.5rem;
+	width: 280px;
+	background-color: orangered;
+}
+
+p {
+	width: 140px;
+	background-color: green;
+}
+
+.amazing {
+	width: 66%;
+}
+
+.parent {
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.child {
+	font-size: 25px;
+	
+}

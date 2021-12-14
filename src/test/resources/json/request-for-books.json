@@ -1,0 +1,6 @@
+{
+  "filter": {
+    "bookNames": ["Alice in the Wonderland", "Fairy tales"],
+    "bookAuthors": ["Louis Carrol", "Linus Torvalds"]
+  }
+}

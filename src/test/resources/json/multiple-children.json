@@ -1,0 +1,26 @@
+[
+  {
+    "childId": "84be8c41-bf6f-4fd6-b051-9e933c893334",
+    "childWish": "pony",
+    "wishDescription": "Pony with a green tail",
+    "bookId": "1111"
+  },
+  {
+    "childId": "dfa3f2ad-57d7-40bb-8dc7-70670a4742ed",
+    "childWish": "tiger",
+    "wishDescription": "Orange tiger with black stripes",
+    "bookId": "2222"
+  },
+  {
+    "childId": "75a59295-91f6-4cf3-a4dc-e089325a53a1",
+    "childWish": "rabbit",
+    "wishDescription": "White rabbit with a watch",
+    "bookId": "3333"
+  },
+  {
+    "childId": "f19b5d24-f4e2-418b-8011-02fad3c6da68",
+    "childWish": "teddy-bear",
+    "wishDescription": "Cute brown bear",
+    "bookId": "4444"
+  }
+]

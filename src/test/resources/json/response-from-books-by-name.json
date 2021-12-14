@@ -1,0 +1,25 @@
+{
+  "bookList": [
+    {
+      "bookId": "3333",
+      "bookName": "Fairy tales",
+      "bookAuthor": "Linus Torvalds"
+    },
+    {
+      "bookId": "4444",
+      "bookName": "Alice in the Wonderland",
+      "bookAuthor": "Louis Carrol"
+    },
+    {
+      "bookId": "5555",
+      "bookName": "Alice in the Wonderland",
+      "bookAuthor": "Ben Franklin"
+    },
+    {
+      "bookId": "6666",
+      "bookName": "Fairy tales",
+      "bookAuthor": "Jack Smithson"
+    }
+  ],
+  "totalNumber": 123
+}

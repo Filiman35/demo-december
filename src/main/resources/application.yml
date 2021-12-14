@@ -1,0 +1,48 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+    path: /custom-error-path
+  servlet:
+    context-path: /api/v1/
+
+logging:
+  level:
+    root: INFO
+    december.christmas.demo: DEBUG
+
+springdoc:
+  swagger-ui:
+    path: /documentation.html
+  api-docs:
+    path: /documentation-in-json-format
+  packagesToScan:
+    - december.christmas.demo.controller
+
+#spring:
+#  datasource:
+#    username: postgres
+#    password: postgres
+#    url: jdbc:postgresql://localhost:5432/animals
+#    #url: jdbc:oracle:thin:@192.168.0.40:1521:proddatabase2
+#    driver-class-name: org.postgresql.Driver
+#    type: org.postgresql.jdbc3.Jdbc3SimpleDataSource
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+
+authorize-foreign-servers:
+  auth-token: some-auth-token
+santa:
+  domain: www.santa.com
+  login: santa111
+  password: 1111
+spiderman:
+  domain: www.spiderman.com
+  apikey: some-secret-from-spiderman
+  auth-token: token-to-get-news-from-spiderman
+zorro:
+  domain: www.zorro.com
+  login: zorro111
+  password: 1111

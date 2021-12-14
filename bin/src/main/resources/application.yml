@@ -1,0 +1,44 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+    path: /custom-error-path
+  servlet:
+    context-path: /api/v1/
+
+logging:
+  level:
+    root: INFO
+    december.christmas.demo: DEBUG
+
+springdoc:
+  swagger-ui:
+    path: /documentation.html
+  api-docs:
+    path: /documentation-in-json-format
+  packagesToScan:
+    - december.christmas.demo.controller
+
+
+spring:
+  datasource:
+    type: oracle.jdbc.pool.OracleDataSource
+    username: admin
+    password: admin
+    url: jdbc:oracle:thin:@192.168.0.0:1111:testdatabase
+    driver-class-name: oracle.jdbc.OracleDriver
+
+authorize-foreign-servers:
+  auth-token: some-auth-token
+santa:
+  domain: www.santa.com
+  login: santa111
+  password: 1111
+spiderman:
+  domain: www.spiderman.com
+  apikey: some-secret-from-spiderman
+  auth-token: token-to-get-news-from-spiderman
+zorro:
+  domain: www.zorro.com
+  login: zorro111
+  password: 1111
